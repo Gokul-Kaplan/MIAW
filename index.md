@@ -7,8 +7,8 @@
 
 			embeddedservice_bootstrap.init(
 				'00DUC000003jYGj',
-				'K_Living_Live_Chat',
-				'https://kaplaninternational--livechat.sandbox.my.site.com/ESWKLivingLiveChat1751865117395',
+				'MIAW_K_Living',
+				'https://kaplaninternational--livechat.sandbox.my.site.com/ESWMIAWKLiving1752562057162',
 				{
 					scrt2URL: 'https://kaplaninternational--livechat.sandbox.my.salesforce-scrt.com'
 				}
@@ -18,7 +18,8 @@
 		}
 	};
 </script>
-<script type='text/javascript' src='https://kaplaninternational--livechat.sandbox.my.site.com/ESWKLivingLiveChat1751865117395/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+<script type='text/javascript' src='https://kaplaninternational--livechat.sandbox.my.site.com/ESWMIAWKLiving1752562057162/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+
 
   
 </body>
