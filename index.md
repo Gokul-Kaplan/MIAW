@@ -6,7 +6,7 @@
 			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
 
 			embeddedservice_bootstrap.init(
-				'00DUC000003jYGj',
+				'00DKJ000000LKyv',
 				'K_Living_Live_Chat',
 				'https://kaplaninternational--livechat.sandbox.my.site.com/ESWKLivingLiveChat1751865117395',
 				{
