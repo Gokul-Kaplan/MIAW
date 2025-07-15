@@ -8,7 +8,7 @@
 			embeddedservice_bootstrap.init(
 				'00DUC000003jYGj',
 				'K_Living_Live_Chat',
-				'https://kaplaninternational--livechat.sandbox.my.site.com/ESWKLivingLiveChat1751865117395',
+				'https://kaplaninternational--livechat.sandbox.my.site.com/ESW_K_Living_Live_Chat_17518651173951',
 				{
 					scrt2URL: 'https://kaplaninternational--livechat.sandbox.my.salesforce-scrt.com'
 				}
