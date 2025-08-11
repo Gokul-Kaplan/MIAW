@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chat Feedback Modal</title>
+  <style>
+    body {
+      background: #888;
+      height: 100vh;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+    }
+    .modal {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.15);
+      padding: 40px 35px 30px 35px;
+      width: 370px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+    .rating {
+      font-size: 2.3rem;
+      display: flex;
+      justify-content: center;
+      gap: 35px;
+      margin: 6px 0 11px 0;
+    }
+    .feedback-box {
+      width: 100%;
+      min-height: 65px;
+      resize: none;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      padding: 8px;
+      margin-top: 7px;
+    }
+    .submit-btn {
+      margin-top: 13px;
+      background: #2196F3;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      padding: 8px 28px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .submit-btn:hover {
+      background: #1769aa;
+    }
+    label {
+      font-size: 1.08rem;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="modal">
+    <div style="font-size: 1.1rem; margin-bottom:4px;">
+      How would you rate this chat?
+    </div>
+    <div class="rating">
+      <span title="Good">&#128077;</span>
+      <span title="Bad">&#128078;</span>
+    </div>
+    <div style="font-size:1.08rem;">Feel free to leave us any additional feedback below:</div>
+    <textarea class="feedback-box" placeholder="Your feedback..."></textarea>
+    <button class="submit-btn">Submit</button>
+  </div>
+</body>
+</html>
